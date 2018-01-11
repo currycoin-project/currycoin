@@ -13,7 +13,7 @@
 SplashScreen::SplashScreen(const QPixmap &pixmap, Qt::WindowFlags f) :
     QSplashScreen(pixmap, f)
 {
-    // set reference point, paddings
+    // set reference point, paddings on main splash
     int paddingLeftCol2         = 1390;
     int paddingTopCol2          = 1408;
     int line1 = 0;
