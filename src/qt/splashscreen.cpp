@@ -14,8 +14,8 @@ SplashScreen::SplashScreen(const QPixmap &pixmap, Qt::WindowFlags f) :
     QSplashScreen(pixmap, f)
 {
     // set reference point, paddings
-    int paddingLeftCol2         = 390;
-    int paddingTopCol2          = 408;
+    int paddingLeftCol2         = 1390;
+    int paddingTopCol2          = 1408;
     int line1 = 0;
     int line2 = 13;
     int line3 = 26;
@@ -28,7 +28,7 @@ SplashScreen::SplashScreen(const QPixmap &pixmap, Qt::WindowFlags f) :
     QString versionText     = QString("Version %1 ").arg(QString::fromStdString(FormatFullVersion()));
     QString copyrightText1   = QChar(0xA9)+QString(" 2009-%1 ").arg(COPYRIGHT_YEAR) + QString(tr("The Bitcoin developers"));
     QString copyrightText2   = QChar(0xA9)+QString(" 2011-%1 ").arg(COPYRIGHT_YEAR) + QString(tr("The Litecoin developers"));
-    QString copyrightText3   = QChar(0xA9)+QString(" %1 ").arg(2017) + QString(tr("The currycoin developers"));
+    QString copyrightText3   = QChar(0xA9)+QString(" %1 ").arg(2017) + QString(tr("The Currycoin developers"));
 
     QString font            = "Arial";
 
